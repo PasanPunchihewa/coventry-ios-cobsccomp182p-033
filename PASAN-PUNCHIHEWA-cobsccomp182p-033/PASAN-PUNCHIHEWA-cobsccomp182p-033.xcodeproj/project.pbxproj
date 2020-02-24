@@ -15,6 +15,9 @@
 		7F6F461E23F7CCED005D70F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F6F461C23F7CCED005D70F6 /* LaunchScreen.storyboard */; };
 		7F6F462923F7CCED005D70F6 /* PASAN_PUNCHIHEWA_cobsccomp182p_033Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6F462823F7CCED005D70F6 /* PASAN_PUNCHIHEWA_cobsccomp182p_033Tests.swift */; };
 		7F6F463423F7CCEE005D70F6 /* PASAN_PUNCHIHEWA_cobsccomp182p_033UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6F463323F7CCEE005D70F6 /* PASAN_PUNCHIHEWA_cobsccomp182p_033UITests.swift */; };
+		7FFC35EF24042314007D8BD7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFC35EE24042314007D8BD7 /* HomeViewController.swift */; };
+		7FFC35F12404233C007D8BD7 /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFC35F02404233C007D8BD7 /* SigninViewController.swift */; };
+		7FFC35F324042354007D8BD7 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFC35F224042354007D8BD7 /* SignupViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		7F6F462F23F7CCEE005D70F6 /* PASAN-PUNCHIHEWA-cobsccomp182p-033UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PASAN-PUNCHIHEWA-cobsccomp182p-033UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F6F463323F7CCEE005D70F6 /* PASAN_PUNCHIHEWA_cobsccomp182p_033UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PASAN_PUNCHIHEWA_cobsccomp182p_033UITests.swift; sourceTree = "<group>"; };
 		7F6F463523F7CCEE005D70F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FFC35EE24042314007D8BD7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7FFC35F02404233C007D8BD7 /* SigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
+		7FFC35F224042354007D8BD7 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,9 @@
 				7F6F461023F7CCEB005D70F6 /* AppDelegate.swift */,
 				7F6F461223F7CCEB005D70F6 /* ViewController.swift */,
 				7F6F461423F7CCEB005D70F6 /* Main.storyboard */,
+				7FFC35EE24042314007D8BD7 /* HomeViewController.swift */,
+				7FFC35F02404233C007D8BD7 /* SigninViewController.swift */,
+				7FFC35F224042354007D8BD7 /* SignupViewController.swift */,
 				7F6F461A23F7CCED005D70F6 /* Assets.xcassets */,
 				7F6F461C23F7CCED005D70F6 /* LaunchScreen.storyboard */,
 				7F6F461F23F7CCED005D70F6 /* Info.plist */,
@@ -259,9 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FFC35F324042354007D8BD7 /* SignupViewController.swift in Sources */,
 				7F6F461323F7CCEB005D70F6 /* ViewController.swift in Sources */,
+				7FFC35F12404233C007D8BD7 /* SigninViewController.swift in Sources */,
 				7F6F461923F7CCEB005D70F6 /* PASAN_PUNCHIHEWA_cobsccomp182p_033.xcdatamodeld in Sources */,
 				7F6F461123F7CCEB005D70F6 /* AppDelegate.swift in Sources */,
+				7FFC35EF24042314007D8BD7 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
